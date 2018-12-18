@@ -1,0 +1,18 @@
+.text-linea {
+    text-align: center;
+    font-size: 2em;
+    background: #898985;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 11px;
+    
+}
+#inliness {
+    padding-left: 15px;
+}
+
+#inliness li {
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
+}

@@ -1,0 +1,36 @@
+<div class="col s12 m6">
+  <h4 class="header"><a href="{{ article.link }}">{{ article.title }}</a></h4>
+  ({{ article.domain() }})
+  <div class="card horizontal">
+    <div class="card-image text-linea">
+      <div>
+        <div>
+          {{ article.votes }}
+        </div>
+        <div>
+          Points
+        </div>
+      </div>
+    </div>
+    <div class="card-stacked">
+      <div class="card-content">
+        <p>
+          the link save is: <a href="{{ article.link }}">{{ article.link }}</a> </p>
+      </div>
+      <ul id="inliness" class="right hide-on-med-and-down">
+        <li>
+          <a href (click)="voteUp()">
+            <i class="tiny material-icons prefix">arrow_upward</i>
+            upvote
+          </a>
+        </li>
+        <li>
+          <a href (click)="voteDown()">
+            <i class="tiny material-icons prefix">arrow_downward</i>
+            downvote
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

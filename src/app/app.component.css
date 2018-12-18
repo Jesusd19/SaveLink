@@ -1,0 +1,16 @@
+.border {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    /* box-shadow: 0px 2px 10px grey; */
+}
+
+.font {
+    font-family: 'Charm', cursive;
+    font-size: 4em;
+}
+
+.btn-position {
+    display: grid;
+    grid-column: 12;
+}
